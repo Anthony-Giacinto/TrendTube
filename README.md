@@ -19,7 +19,7 @@ Grabs data from the YouTube videos on the trending page in your local area. Can 
 *On First use*  
 
 Update your global variables to your values:
-* Change "api_key" to your API key
+* Change "api_key" to your YouTube API key
 * Change "web_browser" to either "chrome" or "firefox". This depends on your desired web driver.
 * Change "web_driver" to the path of your web driver.
 ---------------------------------------------------------------------------------------------------------------------------------
