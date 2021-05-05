@@ -476,4 +476,4 @@ if __name__ == '__main__':
     trend = Trending()
     trend.get_videos()
     trend.combine_tags(split=True, combine=True, stop_words=True)
-    trend.bar_plot(tag=True, threshold=5)
+    trend.bar_plot(tag=True, threshold=7)
