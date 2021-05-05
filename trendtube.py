@@ -464,7 +464,7 @@ class Trending:
                         textcoords='offset points')
 
         date = self._date.strftime("%Y-%m-%d %H:%M:%S")
-        ax.set_title(plot_title + f'\n{date}', fontweight='bold')
+        ax.set_title(plot_title + f'\n{date} UTC', fontweight='bold')
         ax.xaxis.grid()
         ax.set_axisbelow(True)
         plt.xticks(range(max(vals) + 2))
