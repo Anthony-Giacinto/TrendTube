@@ -217,7 +217,7 @@ class Trending:
         get_videos: Finds all the YouTube video within the trending page.
         combine_titles: Combines the titles from multiple YouTube videos.
         combines_tags: Combines the tags from multiple YouTube videos.
-        combine: Combines the tags from multiple YouTube videos.
+        combine: Combines the titles together and the tags together from multiple YouTube videos.
         count: Finds the number of times that a word from the title or a tag appears in self.titles or self.tags.
         find_title_frequencies: Finds the number of times that each tag element appears in self.tags if that value
         is above some desired threshold. Only useful if self.tags is a combination of tags from multiple videos.
